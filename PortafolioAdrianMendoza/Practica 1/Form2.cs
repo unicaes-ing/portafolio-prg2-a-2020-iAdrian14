@@ -11,10 +11,8 @@ using System.Windows.Forms;
 
 namespace Practica_1
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        //-------------Esto es para mover el programa sin los bordes predeterminados--------------
-
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
@@ -31,9 +29,17 @@ namespace Practica_1
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
+        }
+        public void Calcular()
+        {
+
+            int dec = Convert.ToInt32(txtDec.Text);
+            txtBin.Text = Convert.ToString(dec, 2);
+            txtOc.Text = Convert.ToString(dec, 8);
+            txtHex.Text = Convert.ToString(dec, 16);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -48,34 +54,28 @@ namespace Practica_1
 
         private void btnCalc_Click(object sender, EventArgs e)
         {
-            double ex1 = 0, ex2 = 0, ex3 = 0, total = 0;
-            if (txtExam1.Text != "")
-            {
-                ex1 = Convert.ToDouble(txtExam1.Text);
-            }
-            if (txtExam2.Text != "")
-            {
-                ex2 = Convert.ToDouble(txtExam2.Text);
-            }
-            if (txtExam3.Text != "")
-            {
-                ex3 = Convert.ToDouble(txtExam3.Text);
-            }
-            total = (ex1 + ex2 + ex3)/3.0;
-            txtProm.Text = String.Format("{0:F2}",total);
+            Calcular();
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            txtExam1.Clear();
-            txtExam2.Clear();
-            txtExam3.Clear();
-            txtProm.Clear();
+            txtDec.Clear();
+            txtBin.Clear();
+            txtOc.Clear();
+            txtHex.Clear();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txtDec_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                Calcular();
+            }
         }
     }
 }
