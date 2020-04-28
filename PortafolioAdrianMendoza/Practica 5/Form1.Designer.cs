@@ -41,38 +41,42 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(18, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 20);
+            this.label1.Size = new System.Drawing.Size(123, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Vendedores:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(232, 220);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 20);
+            this.label2.Size = new System.Drawing.Size(79, 22);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre";
             // 
             // lstVen
             // 
             this.lstVen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.lstVen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstVen.ForeColor = System.Drawing.Color.White;
             this.lstVen.FormattingEnabled = true;
-            this.lstVen.ItemHeight = 20;
+            this.lstVen.ItemHeight = 22;
             this.lstVen.Location = new System.Drawing.Point(22, 38);
             this.lstVen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstVen.Name = "lstVen";
-            this.lstVen.Size = new System.Drawing.Size(204, 324);
+            this.lstVen.Size = new System.Drawing.Size(204, 312);
             this.lstVen.TabIndex = 2;
             // 
             // btnAZ
             // 
             this.btnAZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.btnAZ.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAZ.Location = new System.Drawing.Point(255, 37);
             this.btnAZ.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAZ.Name = "btnAZ";
@@ -85,6 +89,7 @@
             // btnZA
             // 
             this.btnZA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.btnZA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZA.Location = new System.Drawing.Point(255, 82);
             this.btnZA.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnZA.Name = "btnZA";
@@ -97,6 +102,7 @@
             // btnDel
             // 
             this.btnDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.btnDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDel.Location = new System.Drawing.Point(255, 126);
             this.btnDel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDel.Name = "btnDel";
@@ -109,6 +115,7 @@
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.Location = new System.Drawing.Point(255, 285);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSearch.Name = "btnSearch";
@@ -121,11 +128,12 @@
             // txtSearch
             // 
             this.txtSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.White;
             this.txtSearch.Location = new System.Drawing.Point(237, 245);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(148, 26);
+            this.txtSearch.Size = new System.Drawing.Size(148, 28);
             this.txtSearch.TabIndex = 7;
             // 
             // Form1

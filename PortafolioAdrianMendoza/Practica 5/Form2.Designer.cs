@@ -96,6 +96,7 @@
             // 
             this.btnCalc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
             this.btnCalc.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalc.Location = new System.Drawing.Point(146, 22);
             this.btnCalc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCalc.Name = "btnCalc";
@@ -109,10 +110,11 @@
             // 
             this.rdoSum.AutoSize = true;
             this.rdoSum.Checked = true;
+            this.rdoSum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoSum.Location = new System.Drawing.Point(4, 5);
             this.rdoSum.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdoSum.Name = "rdoSum";
-            this.rdoSum.Size = new System.Drawing.Size(81, 24);
+            this.rdoSum.Size = new System.Drawing.Size(92, 26);
             this.rdoSum.TabIndex = 1;
             this.rdoSum.TabStop = true;
             this.rdoSum.Text = "Sumar";
@@ -121,10 +123,11 @@
             // rdoMul
             // 
             this.rdoMul.AutoSize = true;
+            this.rdoMul.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoMul.Location = new System.Drawing.Point(4, 51);
             this.rdoMul.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdoMul.Name = "rdoMul";
-            this.rdoMul.Size = new System.Drawing.Size(104, 24);
+            this.rdoMul.Size = new System.Drawing.Size(126, 26);
             this.rdoMul.TabIndex = 0;
             this.rdoMul.Text = "Multiplicar";
             this.rdoMul.UseVisualStyleBackColor = true;
@@ -132,30 +135,33 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(18, 48);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 20);
+            this.label1.Size = new System.Drawing.Size(88, 22);
             this.label1.TabIndex = 4;
             this.label1.Text = "Matriz A:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(283, 47);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(283, 48);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 20);
+            this.label2.Size = new System.Drawing.Size(88, 22);
             this.label2.TabIndex = 5;
             this.label2.Text = "Matriz B:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(545, 47);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 20);
+            this.label3.Size = new System.Drawing.Size(100, 22);
             this.label3.TabIndex = 6;
             this.label3.Text = "Resultado";
             // 
